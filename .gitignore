@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.env
+venv/
+env/
+.venv/
+
+# Node
+node_modules/
+.next/
+out/
+.nuxt/
+dist/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+.docker/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+
+# Models (large files)
+*.pkl
+*.joblib
+*.onnx
+*.h5
+*.pb
+*.pt
+*.pth
+!ml/models/*.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+*.crt
+credentials.json
+service-account.json
+
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
